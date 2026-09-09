@@ -911,7 +911,7 @@
                 messageText += `${index + 1}. *${item.nama}*\n   Category: ${item.kategori}\n\n`;
             });
 
-            messageText += `Could you please provide me with more details regarding availability, fitting, and pricing details?\n\nThank you.`;
+            messageText += `Could you please provide me with more details regarding availability and pricing details?\n\nThank you.`;
 
             const encodedMessage = encodeURIComponent(messageText);
             const waUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
